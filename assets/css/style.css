@@ -944,7 +944,14 @@ section {
     background-attachment: fixed;
   }
 }
-
+#video {
+  -webkit-border-top-right-radius: 38px;
+-webkit-border-bottom-left-radius: 38px;
+-moz-border-radius-topright: 38px;
+-moz-border-radius-bottomleft: 38px;
+border-top-right-radius: 38px;
+border-bottom-left-radius: 38px;
+}
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
